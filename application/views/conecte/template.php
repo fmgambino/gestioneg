@@ -48,7 +48,7 @@
                 <img src="<?php echo base_url() ?>assets/img/faviconAppleWhiteBox.png">
             </div>
             <div class="title1">
-                <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/logos/2.png">' : '<img src="' . base_url() . 'assets/img/logos/iconLargoEGwhite.png">'; ?>
+                <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/logos/iconLargoEGdark.png">' : '<img src="' . base_url() . 'assets/img/logos/iconLargoEGwhite.png">'; ?>
             </div>
         </div>
         <a href="#" class="visible-phone">
