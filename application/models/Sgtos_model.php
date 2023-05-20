@@ -2,7 +2,7 @@
 class Sgtos_model extends CI_Model
 {
     /**
-     * author: MI iPhone
+     * author: Electrónica Gambino
      * email: electronicagambino@gmail.com
      *
      */

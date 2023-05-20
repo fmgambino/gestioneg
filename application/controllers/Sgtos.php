@@ -4,7 +4,7 @@
 class Sgtos extends MY_Controller
 {
     /**
-     * author: MI iPhone
+     * author: Electrónica Gambino
      * email: electronicagambino@gmail.com
      *
      */

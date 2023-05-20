@@ -82,7 +82,7 @@
     <!--Footer-part-->
     <div class="row-fluid">
         <div id="footer" class="span12" style="padding: 10px"> <a class="pecolor" href="https://electronicagambino.com" target="_blank">
-                <?= date('Y') ?> &copy; MI iPhone - Versión: <?= $this->config->item('app_version'); ?>
+                <?= date('Y') ?> &copy; Electrónica Gambino - Versión: <?= $this->config->item('app_version'); ?>
     </div>
 
 
