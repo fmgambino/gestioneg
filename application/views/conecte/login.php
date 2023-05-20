@@ -54,7 +54,7 @@ $parse_email = $this->input->get('e');
                                             <img src="<?php echo base_url() ?>assets/img/faviconAppleWhiteBox.png">
                                         </div>
                                         <div class="title01">
-                                            <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/">' : '<img src="' . base_url() . 'assets/img/logos/6.png">'; ?>
+                                            <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/">' : '<img src="' . base_url() . 'assets/img/logos/iconLargoEGwhite.png">'; ?>
                                         </div>
                                     </div>
                                     <div id="mcell">Versión: <?= $this->config->item('app_version'); ?></div>
