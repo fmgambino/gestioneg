@@ -3,7 +3,7 @@
     <div id="newlog">
         <div class="icon2">
             <!-- <img src="<?php echo base_url() ?>assets/img/logos/iconAppleWhite.png"> -->
-            <?= $configuration['app_theme'] == 'white' ||  $configuration['app_theme'] == 'whitegreen' ? '<img src="' . base_url() . 'assets/img/logos/iconAppleDarkLila.png">' : '<img src="' . base_url() . 'assets/img/logos/iconAppleWhite.png">'; ?>
+            <?= $configuration['app_theme'] == 'white' ||  $configuration['app_theme'] == 'whitegreen' ? '<img src="' . base_url() . 'assets/img/logos/iconEGdark.png">' : '<img src="' . base_url() . 'assets/img/logos/iconAppleWhite.png">'; ?>
         </div>
         <div class="title1">
             <?= $configuration['app_theme'] == 'white' ||  $configuration['app_theme'] == 'whitegreen' ? '<img src="' . base_url() . 'assets/img/logos/2.png">' : '<img src="' . base_url() . 'assets/img/logos/6.png">'; ?>
