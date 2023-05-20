@@ -54,11 +54,11 @@ echo saudacao($login);
           <div class="card">
             <div class="content">
               <div id="newlog">
-                <div class="icon2">
+                <!-- <div class="icon2">
                   <img src="<?php echo base_url() ?>assets/img/logos/iconEGwhite.png">
-                </div>
+                </div> -->
                 <div class="title01">
-                  <?= $configuration['app_theme'] == 'white' ? '<img src="'. base_url() .'assets/img/logos/iconLargoEGdark.png">' : '<img src="'. base_url() .'assets/img/logos/iconLargoEGwhite.png">'; ?>
+                  <?= $configuration['app_theme'] == 'white' ? '<img src="'. base_url() .'assets/img/logos/logoEGwhite.png">' : '<img src="'. base_url() .'assets/img/logos/iconLargoEGwhite.png">'; ?>
                 </div>
               </div>
               <div id="mcell">Versión: <?= $this->config->item('app_version'); ?></div>
