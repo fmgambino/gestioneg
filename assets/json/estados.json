@@ -1,0 +1,123 @@
+{
+    "estados": [ {      
+            "id": 12,
+            "sigla": "BA",
+            "nome": "Buenos Aires"
+        },
+        {        
+            "id": 10,
+            "sigla": "CABA",
+            "nome": "CABA"
+        },          
+        {
+            "id": 27,
+            "sigla": "CA",
+            "nome": "Catamarca"
+        },
+        {
+            "id": 16,
+            "sigla": "CH",
+            "nome": "Chaco"
+        },
+        {
+            "id": 13,
+            "sigla": "CT",
+            "nome": "Chubut"
+        },
+        {
+            "id": 29,
+            "sigla": "CB",
+            "nome": "Córdoba"
+        },
+        {
+            "id": 23,
+            "sigla": "CR",
+            "nome": "Corrientes"
+        },
+        {
+            "id": 53,
+            "sigla": "ER",
+            "nome": "Entre Ríos"
+        },
+        {
+            "id": 32,
+            "sigla": "FO",
+            "nome": "Formosa"
+        },
+        {
+            "id": 52,
+            "sigla": "JY",
+            "nome": "Jujuy"
+        },
+        {
+            "id": 21,
+            "sigla": "LP",
+            "nome": "La Pampa"
+        },
+        {
+            "id": 51,
+            "sigla": "LR",
+            "nome": "La Rioja"
+        },
+        {
+            "id": 50,
+            "sigla": "MZ",
+            "nome": "Mendoza"
+        },
+        {
+            "id": 31,
+            "sigla": "MI",
+            "nome": "Misiones"
+        },
+        {
+            "id": 15,
+            "sigla": "NQN",
+            "nome": "Neuquén"
+        },
+        {
+            "id": 25,
+            "sigla": "RN",
+            "nome": "Rio Negro"
+        },
+        {
+            "id": 41,
+            "sigla": "SA",
+            "nome": "Salta"
+        },
+        {
+            "id": 26,
+            "sigla": "SJ",
+            "nome": "San Juan"
+        },
+        {
+            "id": 22,
+            "sigla": "SL",
+            "nome": "San Luis"
+        },
+        {
+            "id": 33,
+            "sigla": "SC",
+            "nome": "Santa Cruz"
+        },
+        {
+            "id": 24,
+            "sigla": "SF",
+            "nome": "Santa Fe"
+        },
+        {
+            "id": 43,
+            "sigla": "SE",
+            "nome": "Santiago del Estero"
+        },
+        {
+            "id": 11,
+            "sigla": "TF",
+            "nome": "Tierra del Fuego"
+        },
+        {
+            "id": 14,
+            "sigla": "TU",
+            "nome": "Tucuman"
+        }
+    ]
+}
