@@ -204,7 +204,7 @@
 
                     function Popup(data) {
                         var mywindow = window.open('', 'Sgtos', 'height=600,width=800');
-                        mywindow.document.write('<html><head><title>MI-iPhone</title>');
+                        mywindow.document.write('<html><head><title>Electronica Gambino</title>');
                         mywindow.document.write("<link rel='stylesheet' href='<?php echo base_url(); ?>assets/css/bootstrap.min.css' /><link rel='stylesheet' href='<?php echo base_url(); ?>assets/css/bootstrap-responsive.min.css' />");
                         mywindow.document.write("<link rel='stylesheet' href='<?php echo base_url(); ?>assets/css/matrix-style.css' /> <link rel='stylesheet' href='<?php echo base_url(); ?>assets/css/matrix-media.css' />");
 

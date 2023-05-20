@@ -171,7 +171,7 @@
             <tr class="details">
                 <td colspan="4" style="text-align: left">
                     Un abrazo! <br>
-                    Equipo MI-iPhone <?= $emitente[0]->nome; ?>
+                    Equipo Electronica Gambino <?= $emitente[0]->nome; ?>
                 </td>
             </tr>
             

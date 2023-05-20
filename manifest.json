@@ -1,12 +1,12 @@
 {
-    "name":"Mi-Iphone",
-    "short_name":"Mi-Iphone",
+    "name":"Electronica Gambino",
+    "short_name":"Electronica Gambino",
     "start_url":"/",
     "display":"standalone",
     "background_color":"#5900b3",
     "theme_color":"black",
     "scope": ".",
-    "description":"Mi-Iphone",
+    "description":"Electronica Gambino",
     "icons":[
         {
             "src":"assets/img/faviconAppleWhiteBox-192x192.png",

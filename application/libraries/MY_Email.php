@@ -10,7 +10,7 @@
  * @link    http://www.meau.com.br/
  * @license http://www.opensource.org/licenses/mit-license.html
  *
- * Updated by @Electronica Gambino for MI-iPhone
+ * Updated by @Electronica Gambino for Electronica Gambino
  */
 class MY_Email extends CI_Email
 {

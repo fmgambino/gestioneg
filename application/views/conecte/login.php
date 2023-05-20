@@ -38,7 +38,7 @@ $parse_email = $this->input->get('e');
     <div class="main-login">
         <div class="left-login">
             <h1 class="h-one">Área del Cliente</h1>
-            <img src="<?php echo base_url() ?>assets/img/forms-animate.svg" class="left-login-imagec" alt="MI-iPhone 2023">
+            <img src="<?php echo base_url() ?>assets/img/forms-animate.svg" class="left-login-imagec" alt="Electronica Gambino 2023">
         </div>
 
         <div id="loginbox">
@@ -82,7 +82,7 @@ $parse_email = $this->input->get('e');
                                             <p style="margin:0px 0 18px">Olvidaste la Contraseña?</p>
                                         </a></div>
                                     <div class="links-uteis"><a href="https://electronicagambino.com">
-                                            <p><?= date('Y'); ?> &copy; MI-iPhone </p>
+                                            <p><?= date('Y'); ?> &copy; Electronica Gambino </p>
                                         </a></div>
                                 </div>
                             </div>

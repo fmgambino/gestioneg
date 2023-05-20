@@ -1,10 +1,10 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-# mi-iPhone
+# Electronica Gambino
 Sistema de Gestion p/Taller de Reparaciones Celulares/Computadoras.
 
-![MI-iPhone](https://i.ibb.co/Vw5dvQY/logo-MI-i-Phone.png)
+![Electronica Gambino](https://i.ibb.co/Vw5dvQY/logo-MI-i-Phone.png)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?longCache=true&style=flat-square)
 ![license](https://img.shields.io/badge/license-MIT-green.svg?longCache=true&style=flat-square)
@@ -14,7 +14,7 @@ Sistema de Gestion p/Taller de Reparaciones Celulares/Computadoras.
 ### Contacto: soporte@nexo-life.com
 ### [Web](https://electronicagambino.com) - NEXO-LIFE
 
-![MI-iPhone](https://i.ibb.co/Y7hGkXn/dash-MI-i-Phone.png)
+![Electronica Gambino](https://i.ibb.co/Y7hGkXn/dash-MI-i-Phone.png)
 
 ### [Instalación](Instalacao_xampp_windows.md)
 
@@ -37,7 +37,7 @@ Sistema de Gestion p/Taller de Reparaciones Celulares/Computadoras.
 Verifique su version de PHP que sea 7.4 Luego intente nuevamente:
     $ composer install --no-dev
 
-6. Accede a tu URL y comienza la instalación, es muy simple, solo completa la información en el asistente de instalación de **MI-iPhone**.
+6. Accede a tu URL y comienza la instalación, es muy simple, solo completa la información en el asistente de instalación de **Electronica Gambino**.
 
 ### ¡ IMPORTANTE !
 
@@ -65,7 +65,7 @@ $ nano config.php //
 ### Actualización a través del sistema
 
 1. Primero, es necesario actualizar manualmente el sistema a la versión v1.1.0;
-2. En esta versión, es posible actualizar el sistema haciendo clic en el botón "Actualizar MI-iPhone" en Sistema >> Configuración;
+2. En esta versión, es posible actualizar el sistema haciendo clic en el botón "Actualizar Electronica Gambino" en Sistema >> Configuración;
 3. Todos los archivos excepto: `config.php`, `database.php` y `email.php` serán descargados y actualizados;
 
 ### Comandos de terminal

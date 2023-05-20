@@ -78,7 +78,7 @@ echo saudacao($login);
               <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">Notificación</a>
               <div id="notification" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-header">
-                  <h4 id="myModalLabel">MI-iPhone</h4>
+                  <h4 id="myModalLabel">Electronica Gambino</h4>
                 </div>
                 <div class="modal-body">
                   <h5 style="text-align: center" id="message">Los datos de inicio de sesión son incorrectos, inténtelo de nuevo!</h5>
@@ -95,7 +95,7 @@ echo saudacao($login);
     <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">Notificación</a>
     <div id="notification" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-header">
-        <h4 id="myModalLabel">MI-iPhone</h4>
+        <h4 id="myModalLabel">Electronica Gambino</h4>
       </div>
       <div class="modal-body">
         <h5 style="text-align: center" id="message">Los datos de inicio de sesión son incorrectos, inténtelo de nuevo!</h5>

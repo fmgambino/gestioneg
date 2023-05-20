@@ -223,7 +223,7 @@ if (($_temp = realpath($system_path)) !== false) {
 // Is the system path correct?
 if (!is_dir($system_path)) {
     header('HTTP/1.1 503 Service Unavailable.', true, 503);
-    echo 'Su instalación de MI-iPhone 2023 está incompleta, instale las dependencias utilizando el compositor. La carpeta del sistema no estaba ubicada.';
+    echo 'Su instalación de Electronica Gambino 2023 está incompleta, instale las dependencias utilizando el compositor. La carpeta del sistema no estaba ubicada.';
     exit(3); // EXIT_CONFIG
 }
 

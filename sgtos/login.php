@@ -36,8 +36,8 @@ echo saudacao($login);
 // Irá retornar conforme o horário:
 ?></h1>
 
-<h2 class="h-two"> Al Sistema de Gestion de Mi-IPhone</h2>
-    <img src="<?php echo base_url() ?>assets/img/dashboard-animate.svg" class="left-login-image" alt="MI-iPhone - Versión: <?= $this->config->item('app_version'); ?>">
+<h2 class="h-two"> Al Sistema de Gestion de Electronica Gambino</h2>
+    <img src="<?php echo base_url() ?>assets/img/dashboard-animate.svg" class="left-login-image" alt="Electronica Gambino - Versión: <?= $this->config->item('app_version'); ?>">
 </div>
 <div id="loginbox">
     <form class="form-vertical" id="formLogin" method="post" action="<?= site_url('login/verificarLogin') ?>">
@@ -78,7 +78,7 @@ echo saudacao($login);
               <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
               <div id="notification" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-header">
-                  <h4 id="myModalLabel">MI-iPhone</h4>
+                  <h4 id="myModalLabel">Electronica Gambino</h4>
                 </div>
                 <div class="modal-body">
                   <h5 style="text-align: center" id="message">Los datos de inicio de sesión son incorrectos, ¡inténtalo de nuevo!</h5>
@@ -95,7 +95,7 @@ echo saudacao($login);
     <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
     <div id="notification" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-header">
-        <h4 id="myModalLabel">MI-iPhone</h4>
+        <h4 id="myModalLabel">Electronica Gambino</h4>
       </div>
       <div class="modal-body">
         <h5 style="text-align: center" id="message">Los datos de inicio de sesión son incorrectos, inténtalo de nuevo. Los datos de inicio de sesión son incorrectos, ¡inténtalo de nuevo!</h5>

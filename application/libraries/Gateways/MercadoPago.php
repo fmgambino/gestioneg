@@ -230,7 +230,7 @@ class MercadoPago extends BasePaymentGateway
         $payment->description = PaymentGateway::PAYMENT_TYPE_OS ? "OS #$id" : "Venta #$id";
         $payment->payment_method_id = "";
         //$payment->notification_url = base_url();
-        $payment->notification_url = 'https://mi-iphone.com.ar/mp_logs';
+        $payment->notification_url = 'https://Electronica Gambino.com.ar/mp_logs';
         //$payment->date_of_expiration = $expirationDate;
         $payment->payer = [
             'email' => $entity->email,
@@ -298,18 +298,18 @@ class MercadoPago extends BasePaymentGateway
 
         // send client notification for this service order
         $this->ci->load->library('email'); // Note: no $config param needed
-        //$this->email->from('cobranzas@mi-iphone.com', 'cobran@gmail.com');
+        //$this->email->from('cobranzas@Electronica Gambino.com', 'cobran@gmail.com');
         $this->ci->email->to($payer['email']);
         $this->ci->email->subject("Ya puede efectuar su pago para Orden de servicio #{$id}");
         $this->ci->email->attach($filedest);
         $this->ci->email->message("
-COBRANZA DE MI-iPhone<br><br>
+COBRANZA DE Electronica Gambino<br><br>
 
-Asunto: Factura de su Orden de Servicio en MI-iPhone.com.ar<br><br>
+Asunto: Factura de su Orden de Servicio en Electronica Gambino.com.ar<br><br>
 
 Estimado/a [Nombre del cliente],<br><br>
 
-Esperamos que este correo electrónico lo encuentre bien. El motivo de nuestro mensaje es para informarle que su Orden de Servicio ha sido facturada y está lista para su pago. En MI-iPhone.com.ar nos esforzamos por brindar un servicio de calidad y rapidez en la reparación de sus dispositivos, y estamos seguros de que encontrará nuestra factura precisa y detallada.<br><br>
+Esperamos que este correo electrónico lo encuentre bien. El motivo de nuestro mensaje es para informarle que su Orden de Servicio ha sido facturada y está lista para su pago. En Electronica Gambino.com.ar nos esforzamos por brindar un servicio de calidad y rapidez en la reparación de sus dispositivos, y estamos seguros de que encontrará nuestra factura precisa y detallada.<br><br>
 
 Le ofrecemos varias opciones de pago, pero le recomendamos utilizar MercadoPago para una transacción rápida y segura. Podrá abonar su factura haciendo click en el siguiente enlace {$init_point} o escaneando el código QR adjunto. Los detalles de su factura son los siguientes:<br><br>
 
@@ -321,12 +321,12 @@ Vencimiento: 30 días<br><br>
 
 Si tiene alguna pregunta sobre su factura o necesita ayuda para procesar su pago, no dude en ponerse en contacto con nosotros. Estamos aquí para ayudarlo en cualquier momento.<br><br>
 
-Agradecemos su confianza en MI-iPhone.com.ar, y esperamos seguir siendo su proveedor de confianza para la reparación de sus dispositivos.<br><br>
+Agradecemos su confianza en Electronica Gambino.com.ar, y esperamos seguir siendo su proveedor de confianza para la reparación de sus dispositivos.<br><br>
 
 Atentamente,<br>
-El equipo de MI-iPhone<br>
+El equipo de Electronica Gambino<br>
 Whatsapp Business Wa.me/541128715389<br>
-Nuestra web: https://mi-iphone.com.ar
+Nuestra web: https://Electronica Gambino.com.ar
 ");
 
         $this->ci->email->send();

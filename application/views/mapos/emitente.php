@@ -72,7 +72,7 @@
         <form action="<?= site_url('mapos/cadastrarEmitente'); ?>" id="formCadastrar" enctype="multipart/form-data" method="post" class="form-horizontal">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h5 id="myModalLabel" style="text-align-last:center">MI-iPhone - Registrar datos del Cliente</h5>
+                <h5 id="myModalLabel" style="text-align-last:center">Electronica Gambino - Registrar datos del Cliente</h5>
             </div>
             <div class="modal-body" style="display: grid;grid-template-columns: 1fr 1fr">
                 <div class="control-group">
@@ -284,7 +284,7 @@
         <form action="<?= site_url('mapos/editarLogo'); ?>" id="formLogo" enctype="multipart/form-data" method="post" class="form-horizontal">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h3 id="">MI-iPhone- Actualizar Logotipo</h3>
+                <h3 id="">Electronica Gambino- Actualizar Logotipo</h3>
             </div>
             <div class="modal-body">
                 <div class="span12 alert alert-info">Seleccione una nueva imágen de logotipo. Tamaño indicado (130 X 130).</div>

@@ -9,12 +9,12 @@ $config['app_version'] = '4.39.0';
 /**
  * Nome do sistema
  */
-$config['app_name'] = 'MI-iPhone';
+$config['app_name'] = 'Electronica Gambino';
 
 /**
  * Descrição do sistema
  */
-$config['app_subname'] = 'Al Sistema de Gestion de Mi-IPhone';
+$config['app_subname'] = 'Al Sistema de Gestion de Electronica Gambino';
 
 
 /*
@@ -41,14 +41,14 @@ $config['app_subname'] = 'Al Sistema de Gestion de Mi-IPhone';
 */
 
 //SERVIDOR DE PRUEBAS HOSTINGER DE ELECTRONICAGAMBINO
-//$config['base_url'] = 'https://mi-iphone.midemo.tech';
+//$config['base_url'] = 'https://Electronica Gambino.midemo.tech';
 $config['base_url'] = $_SERVER['REMOTE_ADDR'] == '127.0.0.1' || $_SERVER['REMOTE_ADDR'] == '::1' ? 'http://localhost:9000' : 'https://admin.electronicagambino.com';
 
 //LOCALHOST ING. GAMBINO
 // $config['base_url'] = 'http://localhost/myIphone';
 
 //LOCALHOST ING. ZENTENO
-// $config['base_url'] = 'http://localhost/mi-iphone';
+// $config['base_url'] = 'http://localhost/Electronica Gambino';
 
 /*
 |--------------------------------------------------------------------------
