@@ -58,7 +58,7 @@ echo saudacao($login);
                   <img src="<?php echo base_url() ?>assets/img/logos/iconEGwhite.png">
                 </div> -->
                 <div class="title01">
-                  <?= $configuration['app_theme'] == 'white' ? '<img src="'. base_url() .'assets/img/logos/logoEGwhite.png">' : '<img src="'. base_url() .'assets/img/logos/iconLargoEGwhite.png">'; ?>
+                  <?= $configuration['app_theme'] == 'white' ? '<img src="'. base_url() .'assets/img/logos/iconLargoEGdark">' : '<img src="'. base_url() .'assets/img/logos/logoEGwhite.png">'; ?>
                 </div>
               </div>
               <div id="mcell">Versión: <?= $this->config->item('app_version'); ?></div>
